@@ -2,4 +2,4 @@ finapi/
 __pycache__/
 *.pyc
 node_modules/
-
+.env
