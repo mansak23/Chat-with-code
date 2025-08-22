@@ -1,0 +1,29 @@
+modules = ["nodejs-20", "python-3.12", "c-clang14", "web"]
+run = "npm run dev"
+
+[nix]
+channel = "stable-25_05"
+packages = ["run"]
+
+[deployment]
+run = ["sh", "-c", "npm run dev"]
+
+[workflows]
+runButton = "Frontend Development"
+
+[[workflows.workflow]]
+name = "Frontend Development"
+author = 42320781
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd frontend && npm run dev"
+
+[[ports]]
+localPort = 5173
+externalPort = 80
+
+[[ports]]
+localPort = 8000
+externalPort = 8000

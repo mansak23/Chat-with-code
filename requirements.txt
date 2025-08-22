@@ -1,7 +1,10 @@
 fastapi
-uvicorn
-chromadb
 sentence-transformers
-python-dotenv
+chromadb
+python-dotenv==1.0.1
+tree-sitter==0.21.3
+tree-sitter-languages==1.10.2
+uvicorn
+watchfiles
 google-generativeai
 python-multipart
