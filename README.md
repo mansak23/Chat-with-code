@@ -44,7 +44,7 @@ It combines **Retrieval-Augmented Generation (RAG)** with **LLM-based reasoning*
 
 ## 📂 Project Structure  
 
-```bash
+
 chat-with-code/
 │── backend/                 
 │   │── main.py              # FastAPI backend with /ask endpoint
@@ -59,7 +59,7 @@ chat-with-code/
 ---
 
 ##⚙️ Installation
-'''bash
+```bash
 # 1. Clone the repo
 git clone https://github.com/your-username/chat-with-code.git
 cd chat-with-code
@@ -69,22 +69,22 @@ python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
 pip install -r requirements.txt
-'''
+```
 
 **Create a .env file in the root directory:**
-'''bash
+```bash
 GEMINI_API_KEY=your_google_gemini_key
-'''
+```
 
 **Run the backend:**
-'''bash
+```bash
 uvicorn backend.main:app --reload
-'''
+```
 
 **Run Frontend:**
-'''bash
+```bash
 npm run dev
-'''
+```
 ---
 
 
