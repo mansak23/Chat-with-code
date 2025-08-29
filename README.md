@@ -24,6 +24,7 @@ It combines **Retrieval-Augmented Generation (RAG)** with **LLM-based reasoning*
 
 
 ## 🛠️ Tech Stack  
+```bash
 
 | Technology                     | Purpose                                                                 |
 |--------------------------------|-------------------------------------------------------------------------|
@@ -37,6 +38,8 @@ It combines **Retrieval-Augmented Generation (RAG)** with **LLM-based reasoning*
 | **Mermaid.js**                 | Renders diagrams (flowcharts) in the frontend                          |
 | **dotenv**                     | Manages environment variables (API keys, configs)                      |
 | **Uvicorn**                    | ASGI server to run FastAPI backend                                     |
+
+```
 
 ---
 
