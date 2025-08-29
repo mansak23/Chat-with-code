@@ -38,7 +38,6 @@ It combines **Retrieval-Augmented Generation (RAG)** with **LLM-based reasoning*
 | **dotenv**                     | Manages environment variables (API keys, configs)                      |
 | **Uvicorn**                    | ASGI server to run FastAPI backend                                     |
 
-```
 
 ---
 
