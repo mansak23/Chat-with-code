@@ -21,18 +21,7 @@ It combines **Retrieval-Augmented Generation (RAG)** with **LLM-based reasoning*
 
 ---
 
-## 🏗️ System Architecture  
 
-```mermaid
-flowchart TD
-    A[User Query] --> B[FastAPI Backend /ask Endpoint]
-    B --> C[RAG Module: Retrieve Relevant Code Chunks]
-    C --> D[LLM Module: Gemini 1.5 Flash / GPT]
-    D --> E[Answer + Mermaid Diagram]
-    E --> F[Streamlit Frontend]
-    F --> G[Display: Text + Retrieved Code + Diagram]
-
----
 
 ## 🛠️ Tech Stack  
 
