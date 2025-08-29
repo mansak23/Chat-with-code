@@ -24,7 +24,6 @@ It combines **Retrieval-Augmented Generation (RAG)** with **LLM-based reasoning*
 
 
 ## 🛠️ Tech Stack  
-```bash
 
 | Technology                     | Purpose                                                                 |
 |--------------------------------|-------------------------------------------------------------------------|
