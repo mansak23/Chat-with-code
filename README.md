@@ -45,7 +45,7 @@ It combines **Retrieval-Augmented Generation (RAG)** with **LLM-based reasoning*
 
 ## 📂 Project Structure  
 
-
+```bash
 chat-with-code/
 │── backend/                 
 │   │── main.py              # FastAPI backend with /ask endpoint
@@ -56,7 +56,7 @@ chat-with-code/
 │── data/                    # Sample C/C++ codebases
 │── requirements.txt         # Python dependencies
 │── README.md                # Project documentation
-
+```
 ---
 
 ##⚙️ Installation
